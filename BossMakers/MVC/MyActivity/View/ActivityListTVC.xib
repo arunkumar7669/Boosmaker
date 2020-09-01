@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nexa Bold.otf">
+            <string>Nexa-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ActivityListTVC" rowHeight="211" id="KGk-i7-Jjw" customClass="ActivityListTVC" customModule="BossMakers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="211"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="211"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="JUNE 22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxc-6W-5wT">
+                        <rect key="frame" x="25" y="11" width="68" height="15"/>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:11 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHo-vA-O9q">
+                        <rect key="frame" x="101" y="11" width="59" height="15"/>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner_ic" translatesAutoresizingMaskIntoConstraints="NO" id="7ex-qO-lpL">
+                        <rect key="frame" x="45" y="47" width="324" height="123"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="123" id="yFT-G4-9rv"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shared Catalog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ua8-uN-wKV">
+                        <rect key="frame" x="40" y="30" width="146" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="146" id="0aI-3a-0m9"/>
+                            <constraint firstAttribute="height" constant="15" id="lz1-XP-a3L"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                        <color key="textColor" red="0.8980392157" green="0.22352941179999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shared Catalog with kurta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkI-Bb-ncX">
+                        <rect key="frame" x="45" y="173" width="324" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="a0k-SJ-Dlf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cqk-Ls-LSD">
+                        <rect key="frame" x="-5" y="202" width="424" height="8"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="cqk-Ls-LSD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-20" id="0S0-9o-G6T"/>
+                    <constraint firstItem="gkI-Bb-ncX" firstAttribute="top" secondItem="7ex-qO-lpL" secondAttribute="bottom" constant="3" id="AsM-04-lMi"/>
+                    <constraint firstItem="7ex-qO-lpL" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="DfN-TV-9B0"/>
+                    <constraint firstItem="ua8-uN-wKV" firstAttribute="top" secondItem="uxc-6W-5wT" secondAttribute="bottom" constant="4" id="Eit-n0-BEo"/>
+                    <constraint firstItem="ua8-uN-wKV" firstAttribute="top" secondItem="zHo-vA-O9q" secondAttribute="bottom" constant="4" id="JYt-id-bhz"/>
+                    <constraint firstItem="ua8-uN-wKV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="25" id="Y7t-fU-cTd"/>
+                    <constraint firstItem="7ex-qO-lpL" firstAttribute="top" secondItem="ua8-uN-wKV" secondAttribute="bottom" constant="2" id="cfN-I4-Lb2"/>
+                    <constraint firstItem="7ex-qO-lpL" firstAttribute="trailing" secondItem="gkI-Bb-ncX" secondAttribute="trailing" id="k8C-1D-VgL"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="cqk-Ls-LSD" secondAttribute="bottom" constant="-10" id="l2d-VO-4tv"/>
+                    <constraint firstItem="uxc-6W-5wT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="mLB-yB-u1n"/>
+                    <constraint firstItem="zHo-vA-O9q" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="svx-CQ-5gm"/>
+                    <constraint firstItem="cqk-Ls-LSD" firstAttribute="top" secondItem="gkI-Bb-ncX" secondAttribute="bottom" constant="14" id="syY-wz-IvY"/>
+                    <constraint firstItem="7ex-qO-lpL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="30" id="uNX-gd-qWs"/>
+                    <constraint firstItem="zHo-vA-O9q" firstAttribute="leading" secondItem="uxc-6W-5wT" secondAttribute="trailing" constant="8" id="vGK-6r-Dxp"/>
+                    <constraint firstItem="uxc-6W-5wT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="25" id="yf8-eq-rEE"/>
+                    <constraint firstItem="7ex-qO-lpL" firstAttribute="leading" secondItem="gkI-Bb-ncX" secondAttribute="leading" id="zK6-AB-aOF"/>
+                    <constraint firstItem="gkI-Bb-ncX" firstAttribute="centerX" secondItem="cqk-Ls-LSD" secondAttribute="centerX" id="zfV-Mh-twT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.59999999999999" y="228.93553223388307"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="banner_ic" width="454" height="201"/>
+    </resources>
+</document>

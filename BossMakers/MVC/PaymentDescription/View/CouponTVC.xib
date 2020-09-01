@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nexa Regular.otf">
+            <string>NexaRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CouponTVC" rowHeight="234" id="KGk-i7-Jjw" customClass="CouponTVC" customModule="BossMakers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="234"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="234"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CgA-6y-Flv">
+                        <rect key="frame" x="0.0" y="10" width="414" height="216"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a Coupon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gni-bA-7sX">
+                                <rect key="frame" x="24" y="12" width="104" height="14"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   Have a Coupon" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AqA-ru-XZc">
+                                <rect key="frame" x="24" y="36" width="253" height="34"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253" id="lW9-5B-sQN"/>
+                                    <constraint firstAttribute="height" constant="34" id="sW1-7I-Gkg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PA-Is-8KL">
+                                <rect key="frame" x="293" y="36" width="103" height="34"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="25m-ch-lVz"/>
+                                    <constraint firstAttribute="width" constant="103" id="OcH-HX-J6F"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                                <state key="normal" title="Apply">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrts!! You saved $ 1 on this order " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xiQ-se-mxy">
+                                <rect key="frame" x="24" y="85" width="248" height="14"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cash Collect From Customer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kDs-6n-gds">
+                                <rect key="frame" x="24" y="140" width="193" height="14"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="   $ 122" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8cP-XS-mEq">
+                                <rect key="frame" x="24" y="164" width="253" height="34"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253" id="pcA-YL-vBL"/>
+                                    <constraint firstAttribute="height" constant="34" id="pze-nM-Hug"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjT-85-SZB">
+                                <rect key="frame" x="293" y="164" width="103" height="34"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="Kbo-OM-chr"/>
+                                    <constraint firstAttribute="height" constant="34" id="uHr-Ha-mqw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                                <state key="normal" title="Collect">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2qn-GM-g4u">
+                                <rect key="frame" x="0.0" y="116" width="414" height="6"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="6" id="E4d-IK-iz2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="kDs-6n-gds" firstAttribute="leading" secondItem="CgA-6y-Flv" secondAttribute="leading" constant="24" id="0A6-Ue-WTp"/>
+                            <constraint firstItem="tjT-85-SZB" firstAttribute="top" secondItem="2qn-GM-g4u" secondAttribute="bottom" constant="42" id="2FC-70-DPG"/>
+                            <constraint firstAttribute="bottom" secondItem="tjT-85-SZB" secondAttribute="bottom" constant="18" id="3Pg-ev-0Y1"/>
+                            <constraint firstItem="AqA-ru-XZc" firstAttribute="top" secondItem="Gni-bA-7sX" secondAttribute="bottom" constant="10" id="7rG-vL-Bhk"/>
+                            <constraint firstItem="0PA-Is-8KL" firstAttribute="leading" secondItem="AqA-ru-XZc" secondAttribute="trailing" constant="16" id="8IF-Xb-Qwe"/>
+                            <constraint firstItem="Gni-bA-7sX" firstAttribute="top" secondItem="CgA-6y-Flv" secondAttribute="top" constant="12" id="9S2-ng-ksI"/>
+                            <constraint firstItem="0PA-Is-8KL" firstAttribute="top" secondItem="CgA-6y-Flv" secondAttribute="top" constant="36" id="Dbw-jf-zA1"/>
+                            <constraint firstItem="8cP-XS-mEq" firstAttribute="top" secondItem="kDs-6n-gds" secondAttribute="bottom" constant="10" id="ITb-B7-q6e"/>
+                            <constraint firstItem="tjT-85-SZB" firstAttribute="leading" secondItem="8cP-XS-mEq" secondAttribute="trailing" constant="16" id="Kts-bT-aqY"/>
+                            <constraint firstItem="AqA-ru-XZc" firstAttribute="leading" secondItem="CgA-6y-Flv" secondAttribute="leading" constant="24" id="VJo-UW-gPh"/>
+                            <constraint firstItem="2qn-GM-g4u" firstAttribute="leading" secondItem="CgA-6y-Flv" secondAttribute="leading" id="WGm-uC-PmE"/>
+                            <constraint firstItem="2qn-GM-g4u" firstAttribute="top" secondItem="xiQ-se-mxy" secondAttribute="bottom" constant="17" id="ZYu-FD-Pmw"/>
+                            <constraint firstItem="xiQ-se-mxy" firstAttribute="leading" secondItem="CgA-6y-Flv" secondAttribute="leading" constant="24" id="a7G-7j-m0M"/>
+                            <constraint firstItem="xiQ-se-mxy" firstAttribute="top" secondItem="AqA-ru-XZc" secondAttribute="bottom" constant="15" id="aXS-hc-SNn"/>
+                            <constraint firstAttribute="trailing" secondItem="tjT-85-SZB" secondAttribute="trailing" constant="18" id="bpG-Ps-KTr"/>
+                            <constraint firstAttribute="trailing" secondItem="0PA-Is-8KL" secondAttribute="trailing" constant="18" id="e1u-Fr-siR"/>
+                            <constraint firstAttribute="bottom" secondItem="8cP-XS-mEq" secondAttribute="bottom" constant="18" id="g8T-hZ-HyW"/>
+                            <constraint firstItem="kDs-6n-gds" firstAttribute="top" secondItem="2qn-GM-g4u" secondAttribute="bottom" constant="18" id="g9K-s2-STD"/>
+                            <constraint firstItem="kDs-6n-gds" firstAttribute="top" secondItem="2qn-GM-g4u" secondAttribute="bottom" constant="18" id="kOm-b3-EO0"/>
+                            <constraint firstItem="8cP-XS-mEq" firstAttribute="leading" secondItem="CgA-6y-Flv" secondAttribute="leading" constant="24" id="oNB-IM-VOd"/>
+                            <constraint firstItem="xiQ-se-mxy" firstAttribute="top" secondItem="0PA-Is-8KL" secondAttribute="bottom" constant="15" id="qAU-0v-eQH"/>
+                            <constraint firstItem="Gni-bA-7sX" firstAttribute="leading" secondItem="CgA-6y-Flv" secondAttribute="leading" constant="24" id="vat-gm-mhc"/>
+                            <constraint firstAttribute="trailing" secondItem="2qn-GM-g4u" secondAttribute="trailing" id="yrd-5Z-ypp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="CgA-6y-Flv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="0A5-YC-8cR"/>
+                    <constraint firstAttribute="trailing" secondItem="CgA-6y-Flv" secondAttribute="trailing" id="26c-lK-d16"/>
+                    <constraint firstItem="CgA-6y-Flv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OLJ-PX-Mmq"/>
+                    <constraint firstAttribute="bottom" secondItem="CgA-6y-Flv" secondAttribute="bottom" constant="8" id="cB9-8E-nSr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.68115942028987" y="173.4375"/>
+        </tableViewCell>
+    </objects>
+</document>

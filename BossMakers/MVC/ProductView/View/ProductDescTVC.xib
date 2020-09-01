@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nexa Bold.otf">
+            <string>Nexa-Bold</string>
+        </array>
+        <array key="Nexa Regular.otf">
+            <string>NexaRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProductDescTVC" rowHeight="552" id="KGk-i7-Jjw" customClass="ProductDescTVC" customModule="BossMakers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="552"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="552"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Stylish Royal Kurti" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePU-pj-BW8">
+                        <rect key="frame" x="20" y="22" width="164" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="4vq-hC-bSW"/>
+                            <constraint firstAttribute="width" constant="164" id="EQ7-QW-po0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Product Code : BOS12345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X2F-KH-Uip">
+                        <rect key="frame" x="20" y="50" width="196" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="esc-ft-4pe"/>
+                            <constraint firstAttribute="width" constant="196" id="gO4-ub-N5I"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Price inclusive of GST" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cch-Ug-Val">
+                        <rect key="frame" x="20" y="78" width="196" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5Yb-j6-QeJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Devlivery time additional post dispatch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVe-qm-DHZ">
+                        <rect key="frame" x="20" y="106" width="278" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ovy-Mb-9xk"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Dispatch about 2-3 days" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84j-Co-OX0">
+                        <rect key="frame" x="20" y="134" width="196" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="eAm-Bv-G9x"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6VG-fF-0WS">
+                        <rect key="frame" x="20" y="171" width="374" height="2"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="Am1-4P-EUR"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MRP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhg-8Y-C57">
+                        <rect key="frame" x="20" y="194" width="74" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="B7i-oM-bF8"/>
+                            <constraint firstAttribute="width" constant="74" id="v89-v0-J8D"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BossMakers Wholesale Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sTf-Xr-l2e">
+                        <rect key="frame" x="20" y="219" width="193" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="JUU-VU-fpi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Extra Discount -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNO-oA-0E8">
+                        <rect key="frame" x="20" y="245" width="125" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="125" id="MZ6-2T-z9q"/>
+                            <constraint firstAttribute="height" constant="20" id="uw3-oP-fuV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <color key="textColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Deal Price -" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fK1-NV-lzH">
+                        <rect key="frame" x="20" y="269" width="152" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="23f-pk-9oN"/>
+                            <constraint firstAttribute="width" constant="152" id="zJz-QL-17x"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <color key="textColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gpm-mv-W4r">
+                        <rect key="frame" x="20" y="300" width="374" height="2"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 323" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsr-DB-s30">
+                        <rect key="frame" x="312" y="194" width="69" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="69" id="Vjn-kX-TRy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <color key="textColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 323" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZhK-dl-o3e">
+                        <rect key="frame" x="321" y="219" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="xEy-93-lwi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <color key="textColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 323" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scz-Ah-NLc">
+                        <rect key="frame" x="321" y="245" width="60" height="20"/>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <color key="textColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 323" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yWY-pG-Fwm">
+                        <rect key="frame" x="321" y="269" width="60" height="20"/>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <color key="textColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Key Feature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlp-Mt-IH7">
+                        <rect key="frame" x="20" y="315" width="118" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="118" id="UwJ-tt-5cO"/>
+                            <constraint firstAttribute="height" constant="20" id="r3F-b7-TYK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yKg-HN-5ef">
+                        <rect key="frame" x="316" y="310" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="eFT-Hp-mwn"/>
+                            <constraint firstAttribute="width" constant="24" id="eVw-0S-PJ9"/>
+                        </constraints>
+                        <state key="normal" image="copy_ic"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4X-l4-Bor">
+                        <rect key="frame" x="357" y="310" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="HBF-oM-jMe"/>
+                        </constraints>
+                        <color key="tintColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" image="share_grey_ic"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description:  One piece of women kurta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ji3-Ly-vs2">
+                        <rect key="frame" x="20" y="341" width="264" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="S9P-Z7-lDz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Febric:  Royal Crepe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jh1-Bc-e8V">
+                        <rect key="frame" x="20" y="369" width="264" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="iDn-XJ-ZJ1"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slevees:  3/4 Slevess included" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7U-Rn-hYL">
+                        <rect key="frame" x="20" y="397" width="246" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="4aq-pj-8Kh"/>
+                            <constraint firstAttribute="width" constant="246" id="Pjl-86-ivd"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Length:  Up to 55 in" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b7F-QR-cBw">
+                        <rect key="frame" x="20" y="425" width="256" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="256" id="NqH-Ny-n7X"/>
+                            <constraint firstAttribute="height" constant="20" id="oYc-Gq-JvH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type:  Stitched" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7VO-2Y-ixm">
+                        <rect key="frame" x="20" y="453" width="229" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="05o-ZP-62q"/>
+                            <constraint firstAttribute="width" constant="229" id="sGJ-33-dRe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work:  Printed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7J-4Q-EL3">
+                        <rect key="frame" x="20" y="481" width="236" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="eb5-13-5ha"/>
+                            <constraint firstAttribute="width" constant="236" id="kPq-OY-LNl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size:  Small, Medium, Large" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0m-wX-WMM">
+                        <rect key="frame" x="20" y="509" width="193" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="1oe-ar-79W"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="scz-Ah-NLc" firstAttribute="leading" secondItem="yWY-pG-Fwm" secondAttribute="leading" id="33b-Rt-W6m"/>
+                    <constraint firstItem="ePU-pj-BW8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="7Qc-FD-hUX"/>
+                    <constraint firstItem="X2F-KH-Uip" firstAttribute="top" secondItem="ePU-pj-BW8" secondAttribute="bottom" constant="7" id="7kz-zU-PGY"/>
+                    <constraint firstItem="gNO-oA-0E8" firstAttribute="baseline" secondItem="scz-Ah-NLc" secondAttribute="baseline" id="8u8-O6-aCh"/>
+                    <constraint firstItem="K7U-Rn-hYL" firstAttribute="top" secondItem="jh1-Bc-e8V" secondAttribute="bottom" constant="8" id="8uy-kg-ORP"/>
+                    <constraint firstItem="sTf-Xr-l2e" firstAttribute="top" secondItem="fhg-8Y-C57" secondAttribute="bottom" constant="6" id="9Kh-AV-KgQ"/>
+                    <constraint firstItem="7VO-2Y-ixm" firstAttribute="leading" secondItem="h7J-4Q-EL3" secondAttribute="leading" id="9wR-YJ-Vhw"/>
+                    <constraint firstItem="X2F-KH-Uip" firstAttribute="trailing" secondItem="cch-Ug-Val" secondAttribute="trailing" id="ANf-Os-LJM"/>
+                    <constraint firstItem="gNO-oA-0E8" firstAttribute="firstBaseline" secondItem="scz-Ah-NLc" secondAttribute="firstBaseline" id="BNq-5o-fDK"/>
+                    <constraint firstItem="6VG-fF-0WS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="C5C-mQ-pso"/>
+                    <constraint firstItem="Xsr-DB-s30" firstAttribute="trailing" secondItem="ZhK-dl-o3e" secondAttribute="trailing" id="CBw-qT-hAZ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Xsr-DB-s30" secondAttribute="trailing" constant="13" id="CJ2-Yw-U2O"/>
+                    <constraint firstItem="r4X-l4-Bor" firstAttribute="leading" secondItem="yKg-HN-5ef" secondAttribute="trailing" constant="17" id="FEr-d4-c4G"/>
+                    <constraint firstItem="h7J-4Q-EL3" firstAttribute="top" secondItem="7VO-2Y-ixm" secondAttribute="bottom" constant="8" id="GEB-ZO-XOm"/>
+                    <constraint firstItem="h7J-4Q-EL3" firstAttribute="leading" secondItem="k0m-wX-WMM" secondAttribute="leading" id="I6C-Tm-mCd"/>
+                    <constraint firstItem="r4X-l4-Bor" firstAttribute="trailing" secondItem="Gpm-mv-W4r" secondAttribute="trailing" constant="-13" id="KAO-Bv-jgn"/>
+                    <constraint firstItem="7VO-2Y-ixm" firstAttribute="top" secondItem="b7F-QR-cBw" secondAttribute="bottom" constant="8" id="KXl-nj-3lh"/>
+                    <constraint firstItem="Gpm-mv-W4r" firstAttribute="leading" secondItem="Wlp-Mt-IH7" secondAttribute="leading" id="Kfb-uO-hNW"/>
+                    <constraint firstItem="ji3-Ly-vs2" firstAttribute="top" secondItem="Wlp-Mt-IH7" secondAttribute="bottom" constant="6" id="LDD-bJ-niz"/>
+                    <constraint firstItem="cch-Ug-Val" firstAttribute="leading" secondItem="FVe-qm-DHZ" secondAttribute="leading" id="LR9-F3-8g0"/>
+                    <constraint firstItem="scz-Ah-NLc" firstAttribute="trailing" secondItem="yWY-pG-Fwm" secondAttribute="trailing" id="Nb7-l0-763"/>
+                    <constraint firstItem="X2F-KH-Uip" firstAttribute="leading" secondItem="cch-Ug-Val" secondAttribute="leading" id="Nth-bu-CKR"/>
+                    <constraint firstItem="r4X-l4-Bor" firstAttribute="top" secondItem="Gpm-mv-W4r" secondAttribute="bottom" constant="8" id="OnU-zj-0yu"/>
+                    <constraint firstItem="fK1-NV-lzH" firstAttribute="top" secondItem="gNO-oA-0E8" secondAttribute="bottom" constant="4" id="POm-MK-Im8"/>
+                    <constraint firstItem="ji3-Ly-vs2" firstAttribute="trailing" secondItem="jh1-Bc-e8V" secondAttribute="trailing" id="QYQ-V1-Loq"/>
+                    <constraint firstItem="FVe-qm-DHZ" firstAttribute="top" secondItem="cch-Ug-Val" secondAttribute="bottom" constant="8" id="RgL-Q7-Vn3"/>
+                    <constraint firstItem="ji3-Ly-vs2" firstAttribute="leading" secondItem="jh1-Bc-e8V" secondAttribute="leading" id="S3w-vg-lYj"/>
+                    <constraint firstItem="yKg-HN-5ef" firstAttribute="top" secondItem="Gpm-mv-W4r" secondAttribute="bottom" constant="8" id="SAw-Hf-3ZA"/>
+                    <constraint firstItem="Gpm-mv-W4r" firstAttribute="leading" secondItem="fK1-NV-lzH" secondAttribute="leading" id="SOc-pq-1p2"/>
+                    <constraint firstItem="fhg-8Y-C57" firstAttribute="top" secondItem="6VG-fF-0WS" secondAttribute="bottom" constant="21" id="TDj-62-TyR"/>
+                    <constraint firstAttribute="trailing" secondItem="6VG-fF-0WS" secondAttribute="trailing" constant="20" id="WEi-Oi-Wig"/>
+                    <constraint firstItem="yKg-HN-5ef" firstAttribute="firstBaseline" secondItem="r4X-l4-Bor" secondAttribute="firstBaseline" id="XHc-7I-ND3"/>
+                    <constraint firstItem="FVe-qm-DHZ" firstAttribute="leading" secondItem="84j-Co-OX0" secondAttribute="leading" id="YbM-Ot-QjQ"/>
+                    <constraint firstItem="yKg-HN-5ef" firstAttribute="baseline" secondItem="r4X-l4-Bor" secondAttribute="baseline" id="ZiL-AX-mbN"/>
+                    <constraint firstItem="ePU-pj-BW8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-33" id="ZmA-Tl-P6i"/>
+                    <constraint firstItem="yKg-HN-5ef" firstAttribute="top" secondItem="r4X-l4-Bor" secondAttribute="top" id="Znu-kT-1Wx"/>
+                    <constraint firstItem="sTf-Xr-l2e" firstAttribute="baseline" secondItem="ZhK-dl-o3e" secondAttribute="baseline" id="as2-BK-ePI"/>
+                    <constraint firstItem="sTf-Xr-l2e" firstAttribute="firstBaseline" secondItem="ZhK-dl-o3e" secondAttribute="firstBaseline" id="cPr-pn-biy"/>
+                    <constraint firstItem="jh1-Bc-e8V" firstAttribute="top" secondItem="ji3-Ly-vs2" secondAttribute="bottom" constant="8" id="d5E-Jt-eCM"/>
+                    <constraint firstItem="b7F-QR-cBw" firstAttribute="top" secondItem="K7U-Rn-hYL" secondAttribute="bottom" constant="8" id="dEz-m6-dmI"/>
+                    <constraint firstAttribute="bottom" secondItem="yKg-HN-5ef" secondAttribute="bottom" constant="218" id="dQQ-9E-znd"/>
+                    <constraint firstItem="fK1-NV-lzH" firstAttribute="firstBaseline" secondItem="yWY-pG-Fwm" secondAttribute="firstBaseline" id="de9-kk-NH2"/>
+                    <constraint firstItem="ePU-pj-BW8" firstAttribute="leading" secondItem="X2F-KH-Uip" secondAttribute="leading" id="eCU-c1-JRa"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="k0m-wX-WMM" secondAttribute="bottom" constant="12" id="eIJ-Gb-8mh"/>
+                    <constraint firstItem="cch-Ug-Val" firstAttribute="top" secondItem="X2F-KH-Uip" secondAttribute="bottom" constant="8" id="ekz-lg-aJ0"/>
+                    <constraint firstItem="r4X-l4-Bor" firstAttribute="trailing" secondItem="yWY-pG-Fwm" secondAttribute="trailing" id="fHZ-i2-Wk2"/>
+                    <constraint firstItem="cch-Ug-Val" firstAttribute="trailing" secondItem="84j-Co-OX0" secondAttribute="trailing" id="g3b-WI-prf"/>
+                    <constraint firstItem="Wlp-Mt-IH7" firstAttribute="leading" secondItem="ji3-Ly-vs2" secondAttribute="leading" id="hAd-Fg-sZi"/>
+                    <constraint firstItem="fhg-8Y-C57" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="194" id="hUF-LA-rH3"/>
+                    <constraint firstItem="Gpm-mv-W4r" firstAttribute="leading" secondItem="84j-Co-OX0" secondAttribute="leading" id="im7-Wu-kpn"/>
+                    <constraint firstItem="b7F-QR-cBw" firstAttribute="leading" secondItem="7VO-2Y-ixm" secondAttribute="leading" id="iy0-5E-4eU"/>
+                    <constraint firstItem="fhg-8Y-C57" firstAttribute="leading" secondItem="sTf-Xr-l2e" secondAttribute="leading" id="k3i-Um-wo9"/>
+                    <constraint firstItem="fhg-8Y-C57" firstAttribute="baseline" secondItem="Xsr-DB-s30" secondAttribute="baseline" id="l4w-tZ-d0K"/>
+                    <constraint firstItem="sTf-Xr-l2e" firstAttribute="trailing" secondItem="k0m-wX-WMM" secondAttribute="trailing" id="ocW-Dp-SN7"/>
+                    <constraint firstItem="ZhK-dl-o3e" firstAttribute="trailing" secondItem="scz-Ah-NLc" secondAttribute="trailing" id="q7m-JB-t4U"/>
+                    <constraint firstItem="K7U-Rn-hYL" firstAttribute="leading" secondItem="b7F-QR-cBw" secondAttribute="leading" id="qeW-Gj-c8j"/>
+                    <constraint firstItem="84j-Co-OX0" firstAttribute="top" secondItem="FVe-qm-DHZ" secondAttribute="bottom" constant="8" id="rHq-dZ-wZB"/>
+                    <constraint firstItem="sTf-Xr-l2e" firstAttribute="leading" secondItem="gNO-oA-0E8" secondAttribute="leading" id="rp0-jy-ox6"/>
+                    <constraint firstItem="Gpm-mv-W4r" firstAttribute="top" secondItem="fK1-NV-lzH" secondAttribute="bottom" constant="11" id="sp1-aj-prt"/>
+                    <constraint firstItem="ZhK-dl-o3e" firstAttribute="leading" secondItem="scz-Ah-NLc" secondAttribute="leading" id="vqA-FV-IAO"/>
+                    <constraint firstItem="gNO-oA-0E8" firstAttribute="leading" secondItem="fK1-NV-lzH" secondAttribute="leading" id="vv4-S0-2UP"/>
+                    <constraint firstItem="fK1-NV-lzH" firstAttribute="baseline" secondItem="yWY-pG-Fwm" secondAttribute="baseline" id="wFt-YV-6He"/>
+                    <constraint firstItem="fhg-8Y-C57" firstAttribute="firstBaseline" secondItem="Xsr-DB-s30" secondAttribute="firstBaseline" id="wbK-mN-Xh7"/>
+                    <constraint firstItem="k0m-wX-WMM" firstAttribute="top" secondItem="h7J-4Q-EL3" secondAttribute="bottom" constant="8" id="x2f-ha-gmB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="FVe-qm-DHZ" secondAttribute="trailing" constant="96" id="yhL-Ba-rjT"/>
+                    <constraint firstItem="jh1-Bc-e8V" firstAttribute="leading" secondItem="K7U-Rn-hYL" secondAttribute="leading" id="zZn-jN-LCq"/>
+                    <constraint firstItem="gNO-oA-0E8" firstAttribute="top" secondItem="sTf-Xr-l2e" secondAttribute="bottom" constant="6" id="zzg-1B-ogA"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnCopy" destination="yKg-HN-5ef" id="u1T-kz-ruv"/>
+                <outlet property="btnShare" destination="r4X-l4-Bor" id="7Ky-xq-I6i"/>
+                <outlet property="lblBossMakerPrice" destination="ZhK-dl-o3e" id="s48-Yf-tA8"/>
+                <outlet property="lblDescription" destination="ji3-Ly-vs2" id="Fpo-Wt-B2z"/>
+                <outlet property="lblDispatchDays" destination="84j-Co-OX0" id="A5X-hj-Zna"/>
+                <outlet property="lblExtraDiscount" destination="scz-Ah-NLc" id="sSZ-5z-B9j"/>
+                <outlet property="lblFebric" destination="jh1-Bc-e8V" id="rWI-qR-0EP"/>
+                <outlet property="lblFinalPrice" destination="yWY-pG-Fwm" id="xd9-Yt-Z0P"/>
+                <outlet property="lblLength" destination="b7F-QR-cBw" id="ml2-Nc-Df9"/>
+                <outlet property="lblMrp" destination="Xsr-DB-s30" id="uDd-Ux-ycM"/>
+                <outlet property="lblProductCode" destination="X2F-KH-Uip" id="YBL-DF-GgY"/>
+                <outlet property="lblProductName" destination="ePU-pj-BW8" id="AsH-JA-mxQ"/>
+                <outlet property="lblSize" destination="k0m-wX-WMM" id="mPL-1A-oau"/>
+                <outlet property="lblSlevess" destination="K7U-Rn-hYL" id="Nm2-MX-cXP"/>
+                <outlet property="lblType" destination="7VO-2Y-ixm" id="Mp1-fQ-r1E"/>
+                <outlet property="lblWork" destination="h7J-4Q-EL3" id="LTY-PF-CWO"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="272.54464285714283"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="copy_ic" width="12" height="14"/>
+        <image name="share_grey_ic" width="13.5" height="14"/>
+    </resources>
+</document>

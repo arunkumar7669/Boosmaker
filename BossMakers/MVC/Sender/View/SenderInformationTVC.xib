@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nexa Bold.otf">
+            <string>Nexa-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SenderInformationTVC" rowHeight="101" id="KGk-i7-Jjw" customClass="SenderInformationTVC" customModule="BossMakers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v6R-Ha-QJx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHW-ty-HMp">
+                                <rect key="frame" x="22" y="17" width="16" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Eei-Hu-3R2"/>
+                                    <constraint firstAttribute="width" constant="16" id="iZM-l9-YGw"/>
+                                </constraints>
+                                <state key="normal" image="radio_selected_btn"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vikas Singh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xk5-zm-vqf">
+                                <rect key="frame" x="53" y="21.5" width="155" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="155" id="dYn-bg-zSu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1231123222" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDK-7U-tH3">
+                                <rect key="frame" x="53" y="44" width="78.5" height="13"/>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Go-Bb-fV5">
+                                <rect key="frame" x="53" y="65" width="68" height="23"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="0E9-Xt-tpP"/>
+                                    <constraint firstAttribute="width" constant="68" id="yIi-jF-tW7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="13"/>
+                                <state key="normal" title="Edit"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HtG-Ft-akj">
+                                <rect key="frame" x="132" y="65" width="68" height="23"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.1529411765" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="68" id="Nlr-0i-GoK"/>
+                                    <constraint firstAttribute="height" constant="23" id="Pd9-Rj-5r2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="13"/>
+                                <state key="normal" title="Delete"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="HtG-Ft-akj" firstAttribute="centerY" secondItem="0Go-Bb-fV5" secondAttribute="centerY" id="4Ot-eZ-trf"/>
+                            <constraint firstAttribute="bottom" secondItem="YHW-ty-HMp" secondAttribute="bottom" constant="62" id="6Bp-Cj-QVT"/>
+                            <constraint firstItem="hDK-7U-tH3" firstAttribute="leading" secondItem="v6R-Ha-QJx" secondAttribute="leading" constant="53" id="8bk-Oi-HSF"/>
+                            <constraint firstItem="HtG-Ft-akj" firstAttribute="leading" secondItem="0Go-Bb-fV5" secondAttribute="trailing" constant="11" id="9PB-R3-6d9"/>
+                            <constraint firstItem="0Go-Bb-fV5" firstAttribute="top" secondItem="hDK-7U-tH3" secondAttribute="bottom" constant="8" id="C67-E4-ejD"/>
+                            <constraint firstItem="0Go-Bb-fV5" firstAttribute="top" secondItem="hDK-7U-tH3" secondAttribute="bottom" constant="8" id="GSV-uR-4zF"/>
+                            <constraint firstItem="HtG-Ft-akj" firstAttribute="top" secondItem="hDK-7U-tH3" secondAttribute="bottom" constant="8" id="JXN-PE-WKQ"/>
+                            <constraint firstItem="0Go-Bb-fV5" firstAttribute="leading" secondItem="v6R-Ha-QJx" secondAttribute="leading" constant="53" id="ODH-Ak-gpY"/>
+                            <constraint firstAttribute="bottom" secondItem="HtG-Ft-akj" secondAttribute="bottom" constant="13" id="Q4d-2K-r7O"/>
+                            <constraint firstItem="xk5-zm-vqf" firstAttribute="centerY" secondItem="YHW-ty-HMp" secondAttribute="centerY" id="aMI-ZL-bPm"/>
+                            <constraint firstAttribute="bottom" secondItem="0Go-Bb-fV5" secondAttribute="bottom" constant="13" id="b81-Vh-tDc"/>
+                            <constraint firstItem="HtG-Ft-akj" firstAttribute="width" secondItem="0Go-Bb-fV5" secondAttribute="width" id="bbO-Jm-Rfs"/>
+                            <constraint firstItem="YHW-ty-HMp" firstAttribute="top" secondItem="v6R-Ha-QJx" secondAttribute="top" constant="17" id="cQ4-Qb-Pc9"/>
+                            <constraint firstItem="xk5-zm-vqf" firstAttribute="leading" secondItem="hDK-7U-tH3" secondAttribute="leading" id="g1c-OQ-xuO"/>
+                            <constraint firstItem="xk5-zm-vqf" firstAttribute="top" secondItem="v6R-Ha-QJx" secondAttribute="top" constant="21.5" id="stJ-pH-yvw"/>
+                            <constraint firstItem="HtG-Ft-akj" firstAttribute="leading" secondItem="0Go-Bb-fV5" secondAttribute="trailing" constant="11" id="vXC-Yd-XPZ"/>
+                            <constraint firstItem="xk5-zm-vqf" firstAttribute="leading" secondItem="YHW-ty-HMp" secondAttribute="trailing" constant="15" id="w8L-ix-tgQ"/>
+                            <constraint firstItem="hDK-7U-tH3" firstAttribute="top" secondItem="xk5-zm-vqf" secondAttribute="bottom" constant="9.5" id="xhb-fh-igY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="v6R-Ha-QJx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="M5R-lS-ZZV"/>
+                    <constraint firstAttribute="bottom" secondItem="v6R-Ha-QJx" secondAttribute="bottom" id="Pu8-5u-kCo"/>
+                    <constraint firstAttribute="trailing" secondItem="v6R-Ha-QJx" secondAttribute="trailing" id="cJE-xm-YND"/>
+                    <constraint firstItem="v6R-Ha-QJx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uT6-5g-9xI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.68115942028987" y="124.88839285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="radio_selected_btn" width="16" height="16"/>
+    </resources>
+</document>

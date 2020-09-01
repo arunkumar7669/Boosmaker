@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nexa Bold.otf">
+            <string>Nexa-Bold</string>
+        </array>
+        <array key="Nexa Regular.otf">
+            <string>NexaRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddAddressTVC" rowHeight="161" id="KGk-i7-Jjw" customClass="AddAddressTVC" customModule="BossMakers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="161"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="161"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Summary" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SsR-Pe-buW">
+                        <rect key="frame" x="148.5" y="13" width="117.5" height="15"/>
+                        <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sem-Iz-oeB">
+                        <rect key="frame" x="0.0" y="45" width="414" height="46"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub Total:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qnG-I7-vKj">
+                                <rect key="frame" x="20" y="0.0" width="71" height="46"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 699" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ugu-7Z-0q4">
+                                <rect key="frame" x="361" y="0.0" width="45" height="46"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ugu-7Z-0q4" secondAttribute="trailing" constant="8" id="00f-aF-osy"/>
+                            <constraint firstAttribute="bottom" secondItem="ugu-7Z-0q4" secondAttribute="bottom" id="07c-JV-GJW"/>
+                            <constraint firstAttribute="bottom" secondItem="qnG-I7-vKj" secondAttribute="bottom" id="LNM-dD-XSJ"/>
+                            <constraint firstItem="ugu-7Z-0q4" firstAttribute="top" secondItem="Sem-Iz-oeB" secondAttribute="top" id="ZTl-Zr-ggr"/>
+                            <constraint firstAttribute="height" constant="46" id="nSy-Sm-Zeo"/>
+                            <constraint firstItem="qnG-I7-vKj" firstAttribute="leading" secondItem="Sem-Iz-oeB" secondAttribute="leading" constant="20" id="qJg-lG-FRb"/>
+                            <constraint firstItem="qnG-I7-vKj" firstAttribute="top" secondItem="Sem-Iz-oeB" secondAttribute="top" id="qLX-T5-TWe"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgb-6E-XRe">
+                        <rect key="frame" x="109.5" y="106" width="195" height="44"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="0RK-mD-kFd"/>
+                            <constraint firstAttribute="width" constant="195" id="Fja-ra-hsW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="17"/>
+                        <state key="normal" title="  Select Address" image="home-tab-selected-ic">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Sem-Iz-oeB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4Rg-kD-4xE"/>
+                    <constraint firstItem="Sem-Iz-oeB" firstAttribute="top" secondItem="SsR-Pe-buW" secondAttribute="bottom" constant="17" id="5Co-8F-GBG"/>
+                    <constraint firstItem="SsR-Pe-buW" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="9TK-oe-8w6"/>
+                    <constraint firstItem="wgb-6E-XRe" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Qcg-59-YxB"/>
+                    <constraint firstItem="SsR-Pe-buW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="Ty6-1P-vWm"/>
+                    <constraint firstAttribute="trailing" secondItem="Sem-Iz-oeB" secondAttribute="trailing" id="qeQ-LE-dZC"/>
+                    <constraint firstItem="wgb-6E-XRe" firstAttribute="top" secondItem="Sem-Iz-oeB" secondAttribute="bottom" constant="15" id="tN2-9U-GP9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnSelectAddress" destination="wgb-6E-XRe" id="9X5-bf-eFZ"/>
+                <outlet property="lblPrice" destination="ugu-7Z-0q4" id="Lkz-WB-jK4"/>
+            </connections>
+            <point key="canvasLocation" x="155.07246376811597" y="148.32589285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="home-tab-selected-ic" width="22" height="20"/>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_BossMakers_BossMakersUITests {
+  umbrella header "Pods-BossMakers-BossMakersUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

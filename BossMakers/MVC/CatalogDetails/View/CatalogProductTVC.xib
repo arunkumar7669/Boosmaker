@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nexa Bold.otf">
+            <string>Nexa-Bold</string>
+        </array>
+        <array key="Nexa Regular.otf">
+            <string>NexaRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CatalogProductTVC" rowHeight="198" id="KGk-i7-Jjw" customClass="CatalogProductTVC" customModule="BossMakers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="198"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="51b-rg-SDx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kadhai Kurta Kadhai Kurta Kadhai Kurta Kadhai Kurta Kadhai Kurta " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a46-Kh-lqE">
+                                <rect key="frame" x="24" y="8" width="366" height="29"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Material :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l66-wx-Md4">
+                                <rect key="frame" x="24" y="42" width="69" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="eBm-zq-22s"/>
+                                    <constraint firstAttribute="width" constant="69" id="uVl-33-DMn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Length :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Md-yD-bAt">
+                                <rect key="frame" x="24" y="60" width="69" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="kmt-dJ-wJm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pattren :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NlK-QP-ouT">
+                                <rect key="frame" x="24" y="79" width="69" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="RTB-lk-5z3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzm-Ok-C0c">
+                                <rect key="frame" x="24" y="97" width="69" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="aHo-1L-N2h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ocassion :" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVP-8P-01q">
+                                <rect key="frame" x="24" y="116" width="69" height="16"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cottan" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9l-6M-rN9">
+                                <rect key="frame" x="143" y="42" width="69" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="acI-Gi-zvO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Three Quater Slevee" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLZ-iA-QLW">
+                                <rect key="frame" x="143" y="60" width="141" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="iMz-Zw-pom"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethic" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ksA-oJ-lQl">
+                                <rect key="frame" x="143" y="79" width="69" height="16"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M(30)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Iy-IS-cZM">
+                                <rect key="frame" x="143" y="97" width="69" height="16"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daily" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVa-mf-ntU">
+                                <rect key="frame" x="143" y="116" width="69" height="16"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wpc-Q8-AUk">
+                                <rect key="frame" x="24" y="153" width="47" height="21"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBZ-1c-NVc">
+                                        <rect key="frame" x="5" y="0.0" width="40" height="21"/>
+                                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="10"/>
+                                        <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="LBZ-1c-NVc" secondAttribute="bottom" id="Bfr-io-m8F"/>
+                                    <constraint firstItem="LBZ-1c-NVc" firstAttribute="top" secondItem="wpc-Q8-AUk" secondAttribute="top" id="NJ8-qm-1L7"/>
+                                    <constraint firstItem="LBZ-1c-NVc" firstAttribute="leading" secondItem="wpc-Q8-AUk" secondAttribute="leading" constant="5" id="cQw-Q7-GAT"/>
+                                    <constraint firstAttribute="trailing" secondItem="LBZ-1c-NVc" secondAttribute="trailing" constant="2" id="gJG-hu-NvC"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSL-cu-VI5">
+                                <rect key="frame" x="143" y="150" width="99" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Bt5-yi-xdw"/>
+                                    <constraint firstAttribute="width" constant="99" id="zAJ-9y-IwO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="15"/>
+                                <state key="normal" title="  Copy" image="copy_ic">
+                                    <color key="titleColor" red="0.8980392157" green="0.22352941179999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.8980392157" green="0.22352941179999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q14-AL-3hy">
+                                <rect key="frame" x="259" y="150" width="109" height="28"/>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="15"/>
+                                <state key="normal" title="  Wishlist" image="wishlist_grey_ic">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="a46-Kh-lqE" firstAttribute="top" secondItem="51b-rg-SDx" secondAttribute="topMargin" id="1Sb-nd-fgx"/>
+                            <constraint firstItem="7Md-yD-bAt" firstAttribute="top" secondItem="l66-wx-Md4" secondAttribute="bottom" constant="2" id="1aW-nF-nHA"/>
+                            <constraint firstItem="NlK-QP-ouT" firstAttribute="firstBaseline" secondItem="ksA-oJ-lQl" secondAttribute="firstBaseline" id="2in-CG-Qxi"/>
+                            <constraint firstItem="l66-wx-Md4" firstAttribute="top" secondItem="a46-Kh-lqE" secondAttribute="bottom" constant="5" id="3U0-P5-EKw"/>
+                            <constraint firstItem="Q14-AL-3hy" firstAttribute="leading" secondItem="zSL-cu-VI5" secondAttribute="trailing" constant="17" id="8rZ-8E-Pbj"/>
+                            <constraint firstItem="Pzm-Ok-C0c" firstAttribute="top" secondItem="NlK-QP-ouT" secondAttribute="bottom" constant="2" id="9aE-Ai-Yez"/>
+                            <constraint firstItem="Pzm-Ok-C0c" firstAttribute="firstBaseline" secondItem="6Iy-IS-cZM" secondAttribute="firstBaseline" id="A0I-RP-4Si"/>
+                            <constraint firstItem="l66-wx-Md4" firstAttribute="firstBaseline" secondItem="m9l-6M-rN9" secondAttribute="firstBaseline" id="BPz-NR-ftP"/>
+                            <constraint firstItem="zSL-cu-VI5" firstAttribute="leading" secondItem="wpc-Q8-AUk" secondAttribute="trailing" constant="72" id="Bfu-j5-iSZ"/>
+                            <constraint firstItem="6Iy-IS-cZM" firstAttribute="trailing" secondItem="WVa-mf-ntU" secondAttribute="trailing" id="CxB-GM-Eg5"/>
+                            <constraint firstItem="ksA-oJ-lQl" firstAttribute="trailing" secondItem="6Iy-IS-cZM" secondAttribute="trailing" id="H3O-8T-w69"/>
+                            <constraint firstItem="NlK-QP-ouT" firstAttribute="top" secondItem="7Md-yD-bAt" secondAttribute="bottom" constant="3" id="KVc-v3-P0g"/>
+                            <constraint firstItem="l66-wx-Md4" firstAttribute="trailing" secondItem="7Md-yD-bAt" secondAttribute="trailing" id="KpZ-tm-pNH"/>
+                            <constraint firstAttribute="bottom" secondItem="Q14-AL-3hy" secondAttribute="bottom" constant="12" id="NJY-HH-5Vr"/>
+                            <constraint firstItem="m9l-6M-rN9" firstAttribute="leading" secondItem="fLZ-iA-QLW" secondAttribute="leading" id="NUv-VA-vXd"/>
+                            <constraint firstItem="7Md-yD-bAt" firstAttribute="leading" secondItem="NlK-QP-ouT" secondAttribute="leading" id="PsL-PG-Tbr"/>
+                            <constraint firstItem="7Md-yD-bAt" firstAttribute="baseline" secondItem="fLZ-iA-QLW" secondAttribute="baseline" id="TVo-fh-zh4"/>
+                            <constraint firstItem="IVP-8P-01q" firstAttribute="firstBaseline" secondItem="WVa-mf-ntU" secondAttribute="firstBaseline" id="W8V-qM-Scb"/>
+                            <constraint firstAttribute="bottom" secondItem="zSL-cu-VI5" secondAttribute="bottom" constant="12" id="WB4-jO-6Gg"/>
+                            <constraint firstItem="IVP-8P-01q" firstAttribute="baseline" secondItem="WVa-mf-ntU" secondAttribute="baseline" id="X55-1H-CcK"/>
+                            <constraint firstItem="7Md-yD-bAt" firstAttribute="trailing" secondItem="NlK-QP-ouT" secondAttribute="trailing" id="bZt-sg-i1r"/>
+                            <constraint firstItem="Q14-AL-3hy" firstAttribute="top" secondItem="fLZ-iA-QLW" secondAttribute="bottom" constant="74" id="cgr-m3-AUP"/>
+                            <constraint firstItem="fLZ-iA-QLW" firstAttribute="leading" secondItem="ksA-oJ-lQl" secondAttribute="leading" id="d5d-aE-wYw"/>
+                            <constraint firstItem="l66-wx-Md4" firstAttribute="leading" secondItem="7Md-yD-bAt" secondAttribute="leading" id="eNu-PG-9Ub"/>
+                            <constraint firstItem="NlK-QP-ouT" firstAttribute="leading" secondItem="Pzm-Ok-C0c" secondAttribute="leading" id="fyG-wY-DRA"/>
+                            <constraint firstItem="Pzm-Ok-C0c" firstAttribute="leading" secondItem="IVP-8P-01q" secondAttribute="leading" id="gib-Vs-d4d"/>
+                            <constraint firstItem="wpc-Q8-AUk" firstAttribute="top" secondItem="IVP-8P-01q" secondAttribute="bottom" constant="21" id="hH8-Gv-yR8"/>
+                            <constraint firstAttribute="trailing" secondItem="Q14-AL-3hy" secondAttribute="trailing" constant="46" id="hLU-YY-FdV"/>
+                            <constraint firstItem="IVP-8P-01q" firstAttribute="top" secondItem="Pzm-Ok-C0c" secondAttribute="bottom" constant="3" id="hX6-oR-Co3"/>
+                            <constraint firstItem="a46-Kh-lqE" firstAttribute="leading" secondItem="51b-rg-SDx" secondAttribute="leading" constant="24" id="hcd-3z-kub"/>
+                            <constraint firstItem="m9l-6M-rN9" firstAttribute="trailing" secondItem="ksA-oJ-lQl" secondAttribute="trailing" id="hhP-jq-xE8"/>
+                            <constraint firstItem="ksA-oJ-lQl" firstAttribute="leading" secondItem="6Iy-IS-cZM" secondAttribute="leading" id="it6-yC-KjD"/>
+                            <constraint firstItem="l66-wx-Md4" firstAttribute="baseline" secondItem="m9l-6M-rN9" secondAttribute="baseline" id="j6o-UB-LjB"/>
+                            <constraint firstItem="m9l-6M-rN9" firstAttribute="leading" secondItem="l66-wx-Md4" secondAttribute="trailing" constant="50" id="lhF-Fi-T31"/>
+                            <constraint firstItem="wpc-Q8-AUk" firstAttribute="top" secondItem="zSL-cu-VI5" secondAttribute="top" constant="3" id="m8w-9L-g7t"/>
+                            <constraint firstItem="Pzm-Ok-C0c" firstAttribute="baseline" secondItem="6Iy-IS-cZM" secondAttribute="baseline" id="mM4-ds-akS"/>
+                            <constraint firstItem="WVa-mf-ntU" firstAttribute="leading" secondItem="zSL-cu-VI5" secondAttribute="leading" id="mSq-KG-3zW"/>
+                            <constraint firstItem="NlK-QP-ouT" firstAttribute="baseline" secondItem="ksA-oJ-lQl" secondAttribute="baseline" id="nuR-P6-hZ3"/>
+                            <constraint firstItem="7Md-yD-bAt" firstAttribute="firstBaseline" secondItem="fLZ-iA-QLW" secondAttribute="firstBaseline" id="ozg-ia-AaE"/>
+                            <constraint firstItem="6Iy-IS-cZM" firstAttribute="leading" secondItem="WVa-mf-ntU" secondAttribute="leading" id="p3f-if-zo2"/>
+                            <constraint firstItem="NlK-QP-ouT" firstAttribute="trailing" secondItem="Pzm-Ok-C0c" secondAttribute="trailing" id="qFe-AH-WSj"/>
+                            <constraint firstItem="Pzm-Ok-C0c" firstAttribute="trailing" secondItem="IVP-8P-01q" secondAttribute="trailing" id="qWw-7k-h47"/>
+                            <constraint firstItem="IVP-8P-01q" firstAttribute="leading" secondItem="wpc-Q8-AUk" secondAttribute="leading" id="qv4-zw-hQQ"/>
+                            <constraint firstItem="a46-Kh-lqE" firstAttribute="leading" secondItem="l66-wx-Md4" secondAttribute="leading" id="tB6-t6-cek"/>
+                            <constraint firstItem="a46-Kh-lqE" firstAttribute="centerX" secondItem="51b-rg-SDx" secondAttribute="centerX" id="uPJ-6F-RpZ"/>
+                            <constraint firstItem="wpc-Q8-AUk" firstAttribute="centerY" secondItem="Q14-AL-3hy" secondAttribute="centerY" constant="-0.5" id="wWb-Nz-zU4"/>
+                            <constraint firstAttribute="bottom" secondItem="wpc-Q8-AUk" secondAttribute="bottom" constant="16" id="zqo-gM-TSl"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="51b-rg-SDx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="G9h-Sm-Ltj"/>
+                    <constraint firstItem="51b-rg-SDx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="N8y-cm-Ejh"/>
+                    <constraint firstAttribute="trailing" secondItem="51b-rg-SDx" secondAttribute="trailing" id="c54-Uy-HZg"/>
+                    <constraint firstAttribute="bottom" secondItem="51b-rg-SDx" secondAttribute="bottom" constant="8" id="riZ-tq-YZb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="137.59999999999999" y="171.81409295352324"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="copy_ic" width="12" height="14"/>
+        <image name="wishlist_grey_ic" width="15" height="13.5"/>
+    </resources>
+</document>

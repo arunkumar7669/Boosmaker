@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GOTHICB.TTF">
+            <string>CenturyGothic-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="Mabrook" customModuleProvider="target">
+            <connections>
+                <outlet property="backBG" destination="pmy-bY-kN4" id="eGc-3Z-sFF"/>
+                <outlet property="backHeaderButton" destination="z1L-93-Os1" id="Mjd-NH-Lz8"/>
+                <outlet property="btnFilter" destination="mjd-wQ-PXT" id="eMM-FL-Y5z"/>
+                <outlet property="btnSearch" destination="WMD-Uy-PHZ" id="oOP-RK-j7o"/>
+                <outlet property="lblprofile" destination="QnZ-2j-CKl" id="nqs-Sc-If0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmy-bY-kN4">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Profile" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnZ-2j-CKl">
+                            <rect key="frame" x="102" y="17" width="210" height="24"/>
+                            <fontDescription key="fontDescription" name="CenturyGothic-Bold" family="Century Gothic" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMD-Uy-PHZ">
+                            <rect key="frame" x="366" y="16" width="26" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="26" id="IwW-Z5-z6c"/>
+                                <constraint firstAttribute="height" constant="26" id="jUe-Xq-Xid"/>
+                            </constraints>
+                            <state key="normal" image="ic_filter"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mjd-wQ-PXT">
+                            <rect key="frame" x="312" y="16" width="26" height="26"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="26" id="0re-FK-gmA"/>
+                                <constraint firstAttribute="height" constant="26" id="w3s-91-1cp"/>
+                            </constraints>
+                            <state key="normal" image="ic_search_white"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="QnZ-2j-CKl" secondAttribute="bottom" constant="17" id="0KW-pK-LIH"/>
+                        <constraint firstItem="QnZ-2j-CKl" firstAttribute="top" secondItem="pmy-bY-kN4" secondAttribute="top" constant="17" id="70q-df-f79"/>
+                        <constraint firstItem="WMD-Uy-PHZ" firstAttribute="top" secondItem="pmy-bY-kN4" secondAttribute="top" constant="16" id="ImF-bR-fM2"/>
+                        <constraint firstItem="mjd-wQ-PXT" firstAttribute="top" secondItem="pmy-bY-kN4" secondAttribute="top" constant="16" id="d0I-Te-1Bk"/>
+                        <constraint firstItem="mjd-wQ-PXT" firstAttribute="leading" secondItem="QnZ-2j-CKl" secondAttribute="trailing" id="hA3-Vb-lc0"/>
+                        <constraint firstAttribute="trailing" secondItem="WMD-Uy-PHZ" secondAttribute="trailing" constant="22" id="l8n-0J-GR8"/>
+                        <constraint firstItem="WMD-Uy-PHZ" firstAttribute="leading" secondItem="mjd-wQ-PXT" secondAttribute="trailing" constant="28" id="olD-To-qCB"/>
+                        <constraint firstAttribute="bottom" secondItem="mjd-wQ-PXT" secondAttribute="bottom" constant="16" id="vFV-ZT-vp6"/>
+                        <constraint firstAttribute="bottom" secondItem="WMD-Uy-PHZ" secondAttribute="bottom" constant="16" id="vTQ-RY-wna"/>
+                        <constraint firstItem="QnZ-2j-CKl" firstAttribute="leading" secondItem="pmy-bY-kN4" secondAttribute="leading" constant="102" id="wML-LC-GOx"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1L-93-Os1">
+                    <rect key="frame" x="24" y="16" width="24" height="24"/>
+                    <state key="normal" image="ic_back"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="z1L-93-Os1" secondAttribute="bottom" constant="18" id="AHe-tt-mQK"/>
+                <constraint firstItem="pmy-bY-kN4" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="TJk-GA-J0U"/>
+                <constraint firstItem="z1L-93-Os1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="aJN-I6-HXl"/>
+                <constraint firstItem="z1L-93-Os1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="24" id="arB-Sl-7wx"/>
+                <constraint firstItem="pmy-bY-kN4" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="oyc-jn-1vs"/>
+                <constraint firstItem="pmy-bY-kN4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="xja-ns-8Wy"/>
+                <constraint firstItem="pmy-bY-kN4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="yJz-vz-eBk"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-57.600000000000001" y="120.53973013493254"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_back" width="24" height="24"/>
+        <image name="ic_filter" width="24" height="24"/>
+        <image name="ic_search_white" width="24" height="24"/>
+    </resources>
+</document>

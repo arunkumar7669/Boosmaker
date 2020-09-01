@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nexa Bold.otf">
+            <string>Nexa-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductViewTVC" rowHeight="140" id="KGk-i7-Jjw" customClass="ProductViewTVC" customModule="BossMakers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: $123" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I5p-Z0-Lfc">
+                        <rect key="frame" x="118.5" y="52" width="65.5" height="12"/>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stylish kurta with Pajma highlited with images Stylish kurta with Pajma highlited w" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1N-1a-GeZ">
+                        <rect key="frame" x="122" y="10" width="270" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="MLE-GN-PL7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size: Large" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cii-Gs-IAa">
+                        <rect key="frame" x="286.5" y="52" width="64" height="12"/>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNg-Us-gdS">
+                        <rect key="frame" x="118.5" y="97" width="102" height="27"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="Jz0-Z7-gZY"/>
+                            <constraint firstAttribute="width" constant="102" id="Npo-Kd-Xb9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                        <state key="normal" title="   Share" image="share_ic"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity:  1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ja4-vB-aNq">
+                        <rect key="frame" x="119" y="72" width="65.5" height="12"/>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot 2020-06-05 at 2.51.26 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Ktr-zX-kLr">
+                        <rect key="frame" x="10" y="10" width="90" height="103"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="DtI-j1-r99"/>
+                            <constraint firstAttribute="height" constant="103" id="Rpp-8b-Tsg"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mr9-6r-dXc">
+                        <rect key="frame" x="257" y="97" width="109" height="28"/>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.792156862745098" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="3hY-N1-nbr"/>
+                            <constraint firstAttribute="width" constant="109" id="NN9-Ll-RMH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                        <state key="normal" title="   Track Order" image="track_order_ic"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.89803921568627454" green="0.792156862745098" blue="0.47058823529411764" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lNg-Us-gdS" firstAttribute="leading" secondItem="Ktr-zX-kLr" secondAttribute="trailing" constant="18.5" id="07Y-NU-lWU"/>
+                    <constraint firstItem="Ktr-zX-kLr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="1NH-n6-3xM"/>
+                    <constraint firstItem="mr9-6r-dXc" firstAttribute="leading" secondItem="lNg-Us-gdS" secondAttribute="trailing" constant="36.5" id="1mB-jS-XyA"/>
+                    <constraint firstAttribute="trailing" secondItem="mr9-6r-dXc" secondAttribute="trailing" constant="48" id="2cl-By-zly"/>
+                    <constraint firstAttribute="bottom" secondItem="lNg-Us-gdS" secondAttribute="bottom" constant="16" id="4N8-D9-Gue"/>
+                    <constraint firstItem="ja4-vB-aNq" firstAttribute="leading" secondItem="Ktr-zX-kLr" secondAttribute="trailing" constant="19" id="9Tv-oH-8rw"/>
+                    <constraint firstAttribute="trailing" secondItem="r1N-1a-GeZ" secondAttribute="trailing" constant="22" id="B6V-yI-LdR"/>
+                    <constraint firstAttribute="trailing" secondItem="cii-Gs-IAa" secondAttribute="trailing" constant="63.5" id="BGl-Xf-BwF"/>
+                    <constraint firstAttribute="bottom" secondItem="Ktr-zX-kLr" secondAttribute="bottom" constant="27" id="H22-Uc-wec"/>
+                    <constraint firstItem="ja4-vB-aNq" firstAttribute="top" secondItem="I5p-Z0-Lfc" secondAttribute="bottom" constant="8" id="L8j-CK-iKG"/>
+                    <constraint firstItem="I5p-Z0-Lfc" firstAttribute="leading" secondItem="Ktr-zX-kLr" secondAttribute="trailing" constant="18.5" id="Q3J-Y8-fWY"/>
+                    <constraint firstItem="Ktr-zX-kLr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="RCK-M8-8sc"/>
+                    <constraint firstItem="mr9-6r-dXc" firstAttribute="leading" secondItem="lNg-Us-gdS" secondAttribute="trailing" constant="36.5" id="U7L-is-D9Y"/>
+                    <constraint firstAttribute="bottom" secondItem="mr9-6r-dXc" secondAttribute="bottom" constant="15" id="Vqc-Nq-APV"/>
+                    <constraint firstItem="mr9-6r-dXc" firstAttribute="top" secondItem="cii-Gs-IAa" secondAttribute="bottom" constant="33" id="a7H-NT-cB4"/>
+                    <constraint firstItem="r1N-1a-GeZ" firstAttribute="leading" secondItem="Ktr-zX-kLr" secondAttribute="trailing" constant="22" id="oYh-A5-wgV"/>
+                    <constraint firstItem="cii-Gs-IAa" firstAttribute="top" secondItem="r1N-1a-GeZ" secondAttribute="bottom" constant="6" id="p0t-ci-t2v"/>
+                    <constraint firstItem="r1N-1a-GeZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="rkZ-vJ-Ys9"/>
+                    <constraint firstItem="I5p-Z0-Lfc" firstAttribute="top" secondItem="r1N-1a-GeZ" secondAttribute="bottom" constant="6" id="vcW-BA-PCY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnShare" destination="lNg-Us-gdS" id="XZL-Hl-SAR"/>
+                <outlet property="btnTrackOrder" destination="mr9-6r-dXc" id="AOL-WD-con"/>
+                <outlet property="imageProduct" destination="Ktr-zX-kLr" id="svt-E2-PZB"/>
+                <outlet property="lblPrice" destination="I5p-Z0-Lfc" id="i5W-5X-kFH"/>
+                <outlet property="lblProductName" destination="r1N-1a-GeZ" id="idc-ge-tDO"/>
+                <outlet property="lblQuantity" destination="ja4-vB-aNq" id="X1F-74-11O"/>
+                <outlet property="lblSize" destination="cii-Gs-IAa" id="fF0-45-m6v"/>
+            </connections>
+            <point key="canvasLocation" x="485.50724637681162" y="139.95535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Screenshot 2020-06-05 at 2.51.26 PM" width="149" height="82"/>
+        <image name="share_ic" width="13.5" height="14"/>
+        <image name="track_order_ic" width="13.5" height="13.5"/>
+    </resources>
+</document>

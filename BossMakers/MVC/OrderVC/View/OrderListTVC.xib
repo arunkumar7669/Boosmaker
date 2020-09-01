@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nexa Bold.otf">
+            <string>Nexa-Bold</string>
+        </array>
+        <array key="Nexa Regular.otf">
+            <string>NexaRegular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrderListTVC" rowHeight="192" id="KGk-i7-Jjw" customClass="OrderListTVC" customModule="BossMakers" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gIa-FW-1W0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="192"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customer - Vikas Chaudhary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IQE-yX-MBk">
+                                <rect key="frame" x="9" y="8" width="206" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="RsB-Tl-DVA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01 June 2020" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FOd-F9-xFw">
+                                <rect key="frame" x="300" y="8" width="106" height="17"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot 2020-06-05 at 2.51.26 PM" translatesAutoresizingMaskIntoConstraints="NO" id="6JW-OP-Ump">
+                                <rect key="frame" x="9" y="33" width="80" height="106"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order ID - 23122" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yu6-v5-TmW">
+                                <rect key="frame" x="97" y="33" width="206" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="206" id="XYy-bc-fhY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kurta Sari Kurta Sari Kurta Sari Kurta Sari Kurta Sari Kurta Sari " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjE-NB-cSm">
+                                <rect key="frame" x="97" y="52" width="283" height="30"/>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From : Chaudhary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rQu-eR-0iK">
+                                <rect key="frame" x="97" y="83" width="206" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="zOM-X4-3iZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price : $121" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFB-xL-gTd">
+                                <rect key="frame" x="97" y="103" width="206" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="QG8-Cc-eQ7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Pending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaV-nf-ajU">
+                                <rect key="frame" x="97" y="122" width="118" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="hN2-2J-xiU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NexaRegular" family="NexaRegular" pointSize="11"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7E-Uc-bY3">
+                                <rect key="frame" x="304" y="117" width="102" height="22"/>
+                                <color key="backgroundColor" red="0.8980392157" green="0.22352941179999999" blue="0.34509803919999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="vep-Vg-DdT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                                <state key="normal" title="Cancelled">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03U-m7-pst">
+                                <rect key="frame" x="97" y="147" width="140" height="25"/>
+                                <color key="backgroundColor" red="0.33725490200000002" green="0.73725490199999999" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="m4v-SX-gih"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                                <state key="normal" title="   Order Details">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pcj-hu-Z45">
+                                <rect key="frame" x="266" y="147" width="140" height="25"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Nexa-Bold" family="Nexa-Bold" pointSize="12"/>
+                                <state key="normal" title="  Track Order" image="track_order_ic">
+                                    <color key="titleColor" red="0.80784313725490198" green="0.61960784313725492" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.80784313725490198" green="0.61960784313725492" blue="0.2196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IQE-yX-MBk" firstAttribute="baseline" secondItem="FOd-F9-xFw" secondAttribute="baseline" id="1Hb-kL-DKM"/>
+                            <constraint firstItem="6JW-OP-Ump" firstAttribute="bottom" secondItem="jaV-nf-ajU" secondAttribute="bottom" id="9pE-5M-aE6"/>
+                            <constraint firstItem="t7E-Uc-bY3" firstAttribute="leading" secondItem="jaV-nf-ajU" secondAttribute="trailing" constant="89" id="A67-6a-upf"/>
+                            <constraint firstItem="rQu-eR-0iK" firstAttribute="top" secondItem="qjE-NB-cSm" secondAttribute="bottom" constant="1" id="ASZ-vF-nMg"/>
+                            <constraint firstAttribute="bottom" secondItem="03U-m7-pst" secondAttribute="bottom" constant="20" id="B1F-Mo-iYn"/>
+                            <constraint firstItem="03U-m7-pst" firstAttribute="baseline" secondItem="Pcj-hu-Z45" secondAttribute="firstBaseline" id="BJK-Wl-EiL"/>
+                            <constraint firstItem="IQE-yX-MBk" firstAttribute="firstBaseline" secondItem="FOd-F9-xFw" secondAttribute="firstBaseline" id="ChG-me-BhY"/>
+                            <constraint firstItem="IQE-yX-MBk" firstAttribute="trailing" secondItem="jaV-nf-ajU" secondAttribute="trailing" id="FFR-nc-xBz"/>
+                            <constraint firstItem="Yu6-v5-TmW" firstAttribute="leading" secondItem="6JW-OP-Ump" secondAttribute="trailing" constant="8" symbolic="YES" id="Hnw-35-YQ3"/>
+                            <constraint firstItem="CFB-xL-gTd" firstAttribute="leading" secondItem="jaV-nf-ajU" secondAttribute="leading" id="LNR-Qz-I50"/>
+                            <constraint firstItem="qjE-NB-cSm" firstAttribute="top" secondItem="FOd-F9-xFw" secondAttribute="bottom" constant="27" id="LWw-kL-euU"/>
+                            <constraint firstItem="rQu-eR-0iK" firstAttribute="leading" secondItem="CFB-xL-gTd" secondAttribute="leading" id="PQN-oR-Txo"/>
+                            <constraint firstAttribute="trailing" secondItem="qjE-NB-cSm" secondAttribute="trailing" constant="34" id="Rs5-D9-nlh"/>
+                            <constraint firstItem="FOd-F9-xFw" firstAttribute="trailing" secondItem="gIa-FW-1W0" secondAttribute="trailingMargin" id="SWv-Nn-RvE"/>
+                            <constraint firstItem="03U-m7-pst" firstAttribute="leading" secondItem="gIa-FW-1W0" secondAttribute="leading" constant="97" id="VNd-RT-257"/>
+                            <constraint firstItem="Pcj-hu-Z45" firstAttribute="top" secondItem="t7E-Uc-bY3" secondAttribute="bottom" constant="8" symbolic="YES" id="Vcn-FC-jta"/>
+                            <constraint firstItem="6JW-OP-Ump" firstAttribute="top" secondItem="IQE-yX-MBk" secondAttribute="bottom" constant="8" symbolic="YES" id="WBn-nS-zaC"/>
+                            <constraint firstItem="Yu6-v5-TmW" firstAttribute="trailing" secondItem="rQu-eR-0iK" secondAttribute="trailing" id="aqG-yE-nwc"/>
+                            <constraint firstItem="Pcj-hu-Z45" firstAttribute="leading" secondItem="03U-m7-pst" secondAttribute="trailing" constant="29" id="bHr-JF-Heg"/>
+                            <constraint firstItem="t7E-Uc-bY3" firstAttribute="top" secondItem="qjE-NB-cSm" secondAttribute="bottom" constant="35" id="bMt-oA-Mbs"/>
+                            <constraint firstItem="qjE-NB-cSm" firstAttribute="leading" secondItem="rQu-eR-0iK" secondAttribute="leading" id="csS-yw-pgX"/>
+                            <constraint firstItem="03U-m7-pst" firstAttribute="top" secondItem="jaV-nf-ajU" secondAttribute="bottom" constant="8" symbolic="YES" id="dHx-ib-gWN"/>
+                            <constraint firstItem="03U-m7-pst" firstAttribute="top" secondItem="Pcj-hu-Z45" secondAttribute="top" id="fcs-Fo-Ht2"/>
+                            <constraint firstItem="6JW-OP-Ump" firstAttribute="top" secondItem="Yu6-v5-TmW" secondAttribute="top" id="glX-c8-oU4"/>
+                            <constraint firstItem="IQE-yX-MBk" firstAttribute="top" secondItem="gIa-FW-1W0" secondAttribute="topMargin" id="hnY-V9-QCS"/>
+                            <constraint firstItem="jaV-nf-ajU" firstAttribute="top" secondItem="CFB-xL-gTd" secondAttribute="bottom" constant="2" id="huO-pM-YjD"/>
+                            <constraint firstItem="FOd-F9-xFw" firstAttribute="leading" secondItem="IQE-yX-MBk" secondAttribute="trailing" constant="85" id="hwi-XC-uqC"/>
+                            <constraint firstItem="Yu6-v5-TmW" firstAttribute="leading" secondItem="qjE-NB-cSm" secondAttribute="leading" id="isK-xr-uj1"/>
+                            <constraint firstItem="IQE-yX-MBk" firstAttribute="leading" secondItem="gIa-FW-1W0" secondAttribute="leading" constant="9" id="kxG-UB-pPW"/>
+                            <constraint firstItem="CFB-xL-gTd" firstAttribute="top" secondItem="rQu-eR-0iK" secondAttribute="bottom" constant="3" id="m9T-z3-HNx"/>
+                            <constraint firstItem="jaV-nf-ajU" firstAttribute="leading" secondItem="03U-m7-pst" secondAttribute="leading" id="mSl-zf-yIM"/>
+                            <constraint firstItem="rQu-eR-0iK" firstAttribute="trailing" secondItem="CFB-xL-gTd" secondAttribute="trailing" id="nup-jc-yvy"/>
+                            <constraint firstAttribute="bottom" secondItem="6JW-OP-Ump" secondAttribute="bottom" constant="53" id="qba-3T-paI"/>
+                            <constraint firstItem="FOd-F9-xFw" firstAttribute="trailing" secondItem="t7E-Uc-bY3" secondAttribute="trailing" id="qzf-1g-PiJ"/>
+                            <constraint firstItem="IQE-yX-MBk" firstAttribute="leading" secondItem="6JW-OP-Ump" secondAttribute="leading" id="vUu-dy-iK3"/>
+                            <constraint firstItem="qjE-NB-cSm" firstAttribute="top" secondItem="Yu6-v5-TmW" secondAttribute="bottom" constant="2" id="y5G-Aw-t22"/>
+                            <constraint firstItem="t7E-Uc-bY3" firstAttribute="trailing" secondItem="Pcj-hu-Z45" secondAttribute="trailing" id="yE5-Q4-U49"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gIa-FW-1W0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="B7g-0Q-Yzy"/>
+                    <constraint firstAttribute="bottom" secondItem="gIa-FW-1W0" secondAttribute="bottom" id="E4b-EJ-sJO"/>
+                    <constraint firstAttribute="trailing" secondItem="gIa-FW-1W0" secondAttribute="trailing" id="Hiq-6g-ZUP"/>
+                    <constraint firstItem="gIa-FW-1W0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="pFu-iB-K7X"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnCancel" destination="t7E-Uc-bY3" id="oLH-T5-rLH"/>
+                <outlet property="btnorderDetails" destination="03U-m7-pst" id="pff-Sx-rWz"/>
+                <outlet property="btntrackOrder" destination="Pcj-hu-Z45" id="tzg-MX-UiR"/>
+                <outlet property="imageProduct" destination="6JW-OP-Ump" id="rkv-qz-tjh"/>
+                <outlet property="lblDate" destination="FOd-F9-xFw" id="C4w-Fi-syi"/>
+                <outlet property="lblFrom" destination="rQu-eR-0iK" id="Nds-3q-amJ"/>
+                <outlet property="lblName" destination="IQE-yX-MBk" id="Afc-7q-b6H"/>
+                <outlet property="lblOrderId" destination="Yu6-v5-TmW" id="nGq-0t-9t0"/>
+                <outlet property="lblOrderStatus" destination="jaV-nf-ajU" id="xrS-K1-uGe"/>
+                <outlet property="lblPrice" destination="CFB-xL-gTd" id="tP8-lM-L1x"/>
+                <outlet property="productName" destination="qjE-NB-cSm" id="AF8-ua-adF"/>
+            </connections>
+            <point key="canvasLocation" x="20.800000000000001" y="136.73163418290855"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Screenshot 2020-06-05 at 2.51.26 PM" width="149" height="82"/>
+        <image name="track_order_ic" width="13.5" height="13.5"/>
+    </resources>
+</document>
